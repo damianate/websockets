@@ -1,0 +1,2 @@
+{"ts":1351595803526,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,".gitignore"]],"start1":0,"start2":0,"length1":0,"length2":10}]],"length":10}
+{"contributors":[],"silentsave":false,"ts":1351595811066,"patch":[[{"diffs":[[-1,".gitignore"],[1,"node_modules/"]],"start1":0,"start2":0,"length1":10,"length2":13}]],"length":13,"saved":false}
