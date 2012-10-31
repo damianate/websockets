@@ -9,7 +9,8 @@
 		<!-- 
 			Polaczenie z serwer + style css
 		!-->
-		<script src="/socket.io/socket.io.js"></script>
+		<script src="http://localhost:8888/socket.io/socket.io.js">
+		</script>
 
 		 <style type="text/css">
 			 
@@ -20,14 +21,15 @@
 	
 	<body> 
 		<!-- 
-			Skrypt z eventem
+			Skrypt eventem
 		!-->
 		<script> 
 		var socket ;
 		var x=0;
 		function init() {
 	
-	    socket = io.connect("http://localhost", {port: 8888, transports: ["websocket"]});
+		socket = io.connect("http://localhost", {port: 8888, transports: ["websocket"]});
+ 
 		socket.emit("mojEvent", {x: x, y: 30});
 						}; 
  		init();
